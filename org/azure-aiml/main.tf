@@ -144,7 +144,7 @@ variable "excluded_subscription_ids" {
 variable "included_management_group_ids" {
   description = "Management groups to include (include mode only)"
   type        = list(string)
-  default     = ["mg1","mg2"]
+  default     = [""]
 }
 
 variable "include_extra_subscription_ids" {
